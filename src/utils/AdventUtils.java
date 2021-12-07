@@ -23,7 +23,7 @@ public class AdventUtils {
     }
 
     private static Scanner getInputFile(int day, boolean test){
-        String path = String.format("inputs/day%d/Day%d.%s", day, day, test ? ".test" : ".in");
+        String path = String.format("inputs/day%d/Day%d.%s", day, day, test ? "test" : "in");
         try{
             return new Scanner(new File(path));
         }catch(FileNotFoundException e){
