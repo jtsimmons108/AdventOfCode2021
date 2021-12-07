@@ -5,13 +5,16 @@ import day2.Day2;
 import day3.Day3;
 import day5.Day5;
 import day6.Day6;
+import day7.Day7;
 
 import java.util.List;
 
 public class Runner {
 
     public static void main(String[] args) {
-        runAllDays();
+        Day day = new Day7();
+        day.solvePartOne();
+        day.solvePartTwo();
     }
 
     public static void runAllDays(){
